@@ -2,6 +2,12 @@ $family-serif: "Ovo", "Georgia", "STZhongsong", "Microsoft YaHei", serif;
 $family-mono: "Source Code Pro", monospace, "Microsoft YaHei";
 $border-color: #dbdbdb;
 
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: beige;
+}
+
 body, button, input, select, textarea {
     font-family: $family-serif;
 }
@@ -24,6 +30,7 @@ a.tag.article-tag {
 }
 
 .navbar-main {
+    color: beige;
     border-bottom: 1px solid $border-color;
     transition: 0.1s ease-in;
 
@@ -38,6 +45,12 @@ a.tag.article-tag {
 
     a.navbar-item.is-active {
         color: #3273dc;
+        color: black;
+    }
+
+    a:hover {
+        color: brown;
+        text-decoration: underline;
     }
 
     .toc .navbar-dropdown {
@@ -54,7 +67,8 @@ a.tag.article-tag {
 
     .article-title a,
     .article-meta a {
-        color: inherit;
+        // color: inherit;
+        color: brown;
         border-bottom: 1px dotted transparent;
         &:hover {
             border-bottom-color: black;
@@ -62,8 +76,8 @@ a.tag.article-tag {
     }
 
     .article-meta {
-        font-size: .9rem;
-        text-transform: uppercase;
+        font-size: .8rem;
+        // text-transform: uppercase;
 
         @media screen and (max-width: 768px) {
             margin-top: 0.75rem;
@@ -94,6 +108,10 @@ a.tag.article-tag {
 
         a {
             word-break: break-word;
+            color: brown;
+            &:hover {
+                text-decoration: underline;
+            }
         }
     }
 
@@ -267,6 +285,7 @@ a.tag.article-tag {
                     padding: 0 .3em;
                 }
             }
+
         }
     }
 
@@ -346,6 +365,14 @@ a.tag.article-tag {
         padding-top: 2rem;
         border-top: 1px solid $border-color;
     }
+
+    .copyright a {
+                color: black;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
 }
 
 .searchbox {

@@ -1,5 +1,5 @@
 # Website's icon url.
-favicon: /favicon.png
+favicon: images/favicon.png
 
 # Open Graph metadata (https://hexo.io/docs/helpers.html#open-graph)
 open_graph:
@@ -24,11 +24,11 @@ article:
 
 # Navigation bar menu links.
 menu:
-  Archives: /archives
-  Lifestyle: /categories/LifeStyle
-  Music: /categories/Music
-  Technology: /categories/Technology
-  О проекте: /about
+  Статьи: /Статьи
+  Задать вопрос: /Задать-вопрос
+  Ссылки: /Ссылки
+  Видео: /Видео
+  О проекте: /О-проекте
 
 # Search plugin settings.
 search:
