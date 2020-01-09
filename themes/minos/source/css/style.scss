@@ -94,6 +94,7 @@ a.tag.article-tag {
     }
 
     .article-entry {
+        text-align: center;
         margin-bottom: 3rem;
         h1, h2, h3, h4, h5, h6 {
             cursor: pointer;
@@ -112,6 +113,14 @@ a.tag.article-tag {
             &:hover {
                 text-decoration: underline;
             }
+        }
+
+        p {
+            text-align: justify;
+            text-indent: 20px;
+        }
+        ul {
+            text-align: justify;
         }
     }
 
@@ -277,6 +286,7 @@ a.tag.article-tag {
         }
 
         footer {
+            text-align: left;
             cite {
                 font-style: normal;
 
@@ -364,6 +374,8 @@ a.tag.article-tag {
     .content {
         padding-top: 2rem;
         border-top: 1px solid $border-color;
+
+        
     }
 
     .copyright a {
@@ -614,6 +626,7 @@ figure.highlight {
     padding: 0;
     line-height: 0;
     max-width: 100%;
+    cursor: default;
 
     &:hover {
         .caption {
