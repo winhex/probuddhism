@@ -650,6 +650,10 @@ figure.highlight {
         font-family: inherit !important;
         line-height: 1.5;
     }
+    img {
+        border: solid 1px;
+        border-radius: 8px;
+    }
 }
 
 .video-container {
@@ -664,6 +668,13 @@ figure.highlight {
         height: 100%;
         position: absolute;
     }
+}
+
+.image_description {
+    color: lightgray;
+    font-size: 12px;
+
+    
 }
 
 @import "insight";

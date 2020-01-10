@@ -5,8 +5,8 @@
 # Site
 title: Про буддизм
 subtitle: ''
-description: 'Сайт о буддизме Тхеравады'
-keywords:
+description: 'Простыми словами о буддизме Тхеравады'
+keywords: 'Будда, буддизм, тхеравада'
 author: winhex
 language: ru
 timezone: ''
@@ -64,13 +64,13 @@ index_generator:
   order_by: date
 
 # Category & Tag
-default_category: uncategorized
+default_category: буддизм
 category_map:
 tag_map:
 
 # Metadata elements
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
-meta_generator: true
+meta_generator: false
 
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date

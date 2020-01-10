@@ -1,12 +1,13 @@
 <footer class="footer">
     <div class="container">
         <div class="columns content">
-            <div class="column is-narrow has-text-centered copyright">
+            <div class="column is-narrow  copyright">
                 &copy; <%= date(new Date(), 'YYYY') %> <%= get_config('author') || get_config('title') %>&nbsp;
                 Сайт разработан с использованием <a href="http://hexo.io/" target="_blank">Hexo</a> & <a
-                        href="http://github.com/ppoffice/hexo-theme-minos">Minos</a>
+                        href="http://github.com/ppoffice/hexo-theme-minos">Minos</a> <br>
+                        <span class="use_statement" href=#>При копировании материалов просим указывать прямую ссылку на данный сайт.</span>
             </div>
-            <div class="column is-hidden-mobile"></div>
+            <div class="column is-hidden-mobile">    </div>
 
             <% if (has_config('footer_links')) { %>
             <div class="column is-narrow">
