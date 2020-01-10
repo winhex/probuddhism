@@ -4,3 +4,15 @@ nav:
   prev: 'Назад'
 article:
   comments: 'Комментарии'
+  read_more: 'Читать дальше'
+
+search:
+  hint: 'Введите текст...'
+
+insight:
+  hint: 'Введете текст...'
+  posts: 'Записи'
+  pages: 'Страницы'
+  categories: 'Категории'
+  tags: 'Теги'
+  untitled: 'Без названия'
