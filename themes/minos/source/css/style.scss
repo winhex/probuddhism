@@ -30,7 +30,7 @@ a.tag.article-tag {
 }
 
 .navbar-main {
-    color: beige;
+    // color: beige;
     border-bottom: 1px solid $border-color;
     transition: 0.1s ease-in;
 
@@ -126,10 +126,12 @@ a.tag.article-tag {
 
     .article-more-link a {
         font-size: .9rem;
-        color: darkgray;
-        border-bottom: 1px dotted transparent;
+        // color: black;
+        border-bottom: none;
         &:hover {
-            border-bottom-color: darkgray;
+            // border-bottom-color: darkgray;
+            // color: brown;
+            // border-bottom: 1px solid;
         }
     }
 
@@ -564,18 +566,28 @@ figure.highlight {
 
     .pagination-link {
         &:hover {
-            border-color: black;
+            border-color: brown;
         }
     }
 
     .pagination-link.is-current {
-        background-color: black;
+        background-color: brown;
     }
 
     .pagination-previous a,
     .pagination-next a {
         position: relative;
-        color: inherit;
+        // color: inherit;
+        color: brown;
+        
+    }
+
+    .pagination-previous a:hover,
+    .pagination-next a:hover {
+        // text-decoration: underline;
+        border-bottom: 1px solid;
+        
+
     }
 
     .pagination-previous a {
@@ -651,8 +663,9 @@ figure.highlight {
         line-height: 1.5;
     }
     img {
-        border: solid 1px;
-        border-radius: 8px;
+        border: solid 3px;
+        border-color: white;
+        
     }
 }
 
