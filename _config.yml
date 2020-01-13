@@ -6,14 +6,14 @@
 title: Про буддизм
 subtitle: ''
 description: 'Простыми словами о буддизме Тхеравады'
-keywords: 'Будда, буддизм, тхеравада'
+keywords: 'Будда, буддизм, тхеравада, Дхамма'
 author: winhex
 language: ru
 timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://winhex.github.io
+url: https://probuddhism.ru
 root: /
 #permalink: :year/:month/:day/:title/
 permalink: :category/:title/
@@ -99,6 +99,13 @@ theme: minos
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
-type: git
-repo: https://github.com/winhex/winhex.github.io.git
+deploy:
+  #type: git
+  #repo: git@github.com:winhex/winhex.github.io.git
+  #email: minhex@gmail.com
+  #name: winhex
+
+  type: netlify
+  token: 4f2be2b0e99b64da823647b81ef8928af30cf22d833b249fb67a6335d16ab1d9
+  site_id: b8b54027-21f7-4423-81b6-4722d5384e48
   

@@ -38,9 +38,9 @@ search:
 toc: true
 
 # Share plugin settings.
-#share:
-#  type: sharethis
-#  install_url:
+share:
+  type: sharethis
+  install_url: platform-api.sharethis.com/js/sharethis.js#property=5e1c45d79913370013b307e4
 
 # Comment plugin settings.
 comment:
