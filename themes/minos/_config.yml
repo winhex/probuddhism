@@ -20,7 +20,7 @@ article:
   # Show word count and estimated reading time.
   readtime: false
   # Code highlight theme, please see https://highlightjs.org/static/demo/
-  highlight: atom-one-light
+  #highlight: atom-one-light
 
 # Navigation bar menu links.
 menu:
@@ -40,7 +40,7 @@ toc: true
 # Share plugin settings.
 share:
   type: sharethis
-  install_url: platform-api.sharethis.com/js/sharethis.js#property=5e1c45d79913370013b307e4
+  install_url: //platform-api.sharethis.com/js/sharethis.js#property=5e1c45d79913370013b307e4&product=inline-share-buttons&cms=sop
 
 # Comment plugin settings.
 comment:
@@ -52,7 +52,7 @@ plugins:
   mathjax: false
   katex: false
   gallery: false
-  clipboard: true
+  clipboard: false
   google-analytics: false
     #tracking_id:
 

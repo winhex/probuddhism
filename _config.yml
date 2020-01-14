@@ -97,6 +97,11 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: minos
 
+sitemap:
+    path: sitemap.xml
+    template: ./sitemap_template.xml
+    rel: false
+
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
