@@ -25,9 +25,10 @@ article:
 # Navigation bar menu links.
 menu:
   Статьи: /Статьи
+  Категории: /categories
   Задать вопрос: /Задать-вопрос
   Ссылки: /Ссылки
-  Видео: /Видео
+  #Видео: /Видео
   О проекте: /О-проекте
 
 # Search plugin settings.

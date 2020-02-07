@@ -1,4 +1,10 @@
 name: 'RU'
+common:
+  archives: 'Архив'
+  category: 'Категория'
+  tag: 'Тэг'
+  categories: 'Категории'
+  tags: 'Тэги'
 nav:
   next: 'Далее'
   prev: 'Назад'
